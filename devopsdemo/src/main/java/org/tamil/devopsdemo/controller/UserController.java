@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping("/view")
     public String getName(){
-        return "Tamil selvan";
+        return "I'm Tamil selvan";
     }
 }
