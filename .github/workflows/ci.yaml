@@ -28,4 +28,5 @@ jobs:
             ${{ runner.os }}-m2
 
       - name: Build and Test
-        run: mvn clean verify
+        run: mvn -B clean verify
+        working-directory: devopsdemo
